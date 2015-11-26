@@ -33,9 +33,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 gem 'bootstrap-sass', '~> 3.3.5'
 gem "paperclip", "~> 4.3"
-gem "paperclip-dropbox", ">= 1.1.7"
+#gem 'paperclip'
+#gem  'aws-sdk', '>2.0'
+gem  'aws-sdk-v1'
+#gem 'aws-sdk', '< 2.0'
+gem "figaro"
 
 group :production do
 	gem 'pg'
